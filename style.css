@@ -1,0 +1,100 @@
+/* style général */
+body {
+  background-color: white;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Arial', serif;
+}
+
+a:hover {
+  color: red;
+}
+
+#logo {
+  height: 80px;
+}
+
+
+#navbar {
+  padding: 10px;
+}
+
+/* banner */
+
+#banner {
+  background-image: url('images/banner6.png');
+  background-size: cover;
+  height: 400px;
+  padding: 50px;
+}
+
+
+/* section 4 colonnes */
+
+#stuff {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+#stuff p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.concept-picture {
+  height: 110px;
+  width: 110px;
+}
+
+.concept-card {
+  padding: 30px;
+}
+
+
+.social{
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.commander{
+	font-size: 50px;
+    margin-top: 50px;
+}
+
+@media all and (min-width:0px) and (max-width: 360px) {
+  /* put your css styles in here */
+  .commander{
+	font-size: 12px;
+    margin-top: 50px;
+}
+}
+
+.contenu-pizza-text{
+	cursor:pointer;
+}
+
+
+
+/* footer*/
+
+#footer{
+	text-align:center;
+	margin-top: 50px;
+  font-size: 10px;
+}
+
+
+
+
+
+
